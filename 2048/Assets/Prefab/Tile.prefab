@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8325576145196296970}
   - component: {fileID: 5316158293663511210}
   - component: {fileID: -2231620584378796762}
+  - component: {fileID: 9040048580056515850}
   m_Layer: 5
   m_Name: Tile
   m_TagString: Untagged
@@ -90,6 +91,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e400eddc96589e244b3003872d305776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &9040048580056515850
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3189838357975443320}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7475597683798799354
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +187,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190080
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
