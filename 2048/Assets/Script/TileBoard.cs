@@ -51,6 +51,7 @@ public class TileBoard : MonoBehaviour
 		}
 		tile.Spawn(grid.GetRandomEmptyCell());
 		tiles.Add(tile);
+		//tile.GetComponent<Animator>().SetTrigger("Spawn");
 	}
 
 	private void Update()
@@ -142,7 +143,7 @@ public class TileBoard : MonoBehaviour
 		int number = b.number * 2;
 
 		b.SetState(tileStates[index], number);
-
+		
 		gameManager.PlusScore(number);
 	}
 

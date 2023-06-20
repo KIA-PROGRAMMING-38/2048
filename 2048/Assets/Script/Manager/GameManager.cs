@@ -1,6 +1,8 @@
+using UnityEngine.SceneManagement;
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using System.Xml.Serialization;
 
 public class GameManager : MonoBehaviour
 {
@@ -84,5 +86,10 @@ public class GameManager : MonoBehaviour
 	private int LoadScroe()
 	{
 		return PlayerPrefs.GetInt("bestScore", 0);
+	}
+
+	public void LoadScene()
+	{
+		SceneManager.LoadScene(0);
 	}
 }

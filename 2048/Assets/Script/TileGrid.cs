@@ -17,6 +17,7 @@ public class TileGrid : MonoBehaviour
 
 	private void Start()
 	{
+		// 그리드 내의모든 셀에 대해 좌표를 설정
 		for (int y = 0; y < rows.Length; y++)
 		{
 			for (int x = 0; x < rows[y].cells.Length; x++)
