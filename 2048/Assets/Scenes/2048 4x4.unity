@@ -2912,6 +2912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 1818501916}
+  tiles: {fileID: -2231620584378796762, guid: 533b911ad9ea10743951d069faf58d57, type: 3}
   canvas: {fileID: 837776038}
   scoreText: {fileID: 1989509717}
   bestScoreText: {fileID: 906164627}

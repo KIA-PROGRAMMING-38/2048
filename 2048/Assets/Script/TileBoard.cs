@@ -51,7 +51,7 @@ public class TileBoard : MonoBehaviour
 		}
 		tile.Spawn(grid.GetRandomEmptyCell());
 		tiles.Add(tile);
-		//tile.GetComponent<Animator>().SetTrigger("Spawn");
+		tile.GetComponent<Animator>().SetTrigger("Spawn");
 	}
 
 	private void Update()
@@ -140,9 +140,11 @@ public class TileBoard : MonoBehaviour
 		a.Merge(b.cell);
 
 		int index = Mathf.Clamp(IndexOf(b.state) + 1, 0, tileStates.Length - 1);
-		int number = b.number * 8;
+		int number = b.number * 2;
 
 		b.SetState(tileStates[index], number);
+
+		b.GetComponent<Animator>().SetTrigger("Merge");
 		
 		gameManager.PlusScore(number);
 	}

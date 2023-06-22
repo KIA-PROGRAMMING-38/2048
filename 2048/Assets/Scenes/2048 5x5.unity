@@ -4932,9 +4932,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   board: {fileID: 218899544}
+  tiles: {fileID: -2231620584378796762, guid: 533b911ad9ea10743951d069faf58d57, type: 3}
   canvas: {fileID: 516604195}
   scoreText: {fileID: 39266791}
   bestScoreText: {fileID: 432534422}
+  isGameClear: 0
 --- !u!4 &1788716405
 Transform:
   m_ObjectHideFlags: 0
