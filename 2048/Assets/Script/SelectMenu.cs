@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SelectMenu : MonoBehaviour
 {
-    public int index;
+    [SerializeField] private int index;
 
     public void LoadScene()
     {
